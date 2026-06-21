@@ -11,13 +11,15 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Sora:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div class="paper"></div>
+    <div class="ambient ambient-one"></div>
+    <div class="ambient ambient-two"></div>
+
     <div class="page-shell">
       <header class="site-header">
         <a class="brand" href="#top">
@@ -33,58 +35,68 @@
       </header>
 
       <main id="top">
-        <section class="hero-grid">
-          <div class="hero-panel reveal">
-            <p class="section-label">Academic Profile</p>
-            <h1>Yanghong Zhou</h1>
-            <p class="hero-title">
-              Research Assistant Professor, School of Fashion and Textiles, The Hong
-              Kong Polytechnic University
-            </p>
-            <p class="hero-contactline">
-              <a href="mailto:yanghong.zhou@connect.polyu.hk">yanghong.zhou@connect.polyu.hk</a>
-              <span>Hong Kong</span>
-              <a
-                href="https://scholar.google.com/citations?user=pZWwBx0AAAAJ&hl=en"
-                target="_blank"
-                rel="noreferrer"
-                >Google Scholar</a
-              >
-              <a
-                href="https://orcid.org/0000-0002-0372-996X"
-                target="_blank"
-                rel="noreferrer"
-                >ORCID</a
-              >
-            </p>
-            <p class="hero-summary">
-              I develop core methods in artificial intelligence and computer vision,
-              with a particular interest in structured visual understanding,
-              multimodal retrieval and generation, neural rendering, and interactive
-              visual computing. My recent work connects these technical directions to
-              digital fashion, wearable systems, 3D visual representation, and
-              application-driven intelligent interfaces.
-            </p>
-          </div>
-        </section>
+        <section class="hero-shell reveal">
+          <div class="hero-panel">
+            <div class="hero-layout">
+              <div class="hero-copy">
+                <p class="eyebrow">Artificial Intelligence · Computer Vision · Multimodal Learning</p>
+                <h1>Yanghong Zhou</h1>
+                <p class="hero-title">
+                  Research Assistant Professor, School of Fashion and Textiles, The Hong
+                  Kong Polytechnic University
+                </p>
+                <div class="hero-contactline">
+                  <a href="mailto:yanghong.zhou@connect.polyu.hk">yanghong.zhou@connect.polyu.hk</a>
+                  <span>Hong Kong</span>
+                </div>
+                <p class="hero-summary">
+                  I develop core methods in artificial intelligence and computer vision,
+                  with a particular interest in structured visual understanding,
+                  multimodal retrieval and generation, neural rendering, and interactive
+                  visual computing. My recent work connects these technical directions to
+                  digital fashion, wearable systems, 3D visual representation, and
+                  application-driven intelligent interfaces.
+                </p>
+                <div class="hero-links">
+                  <a class="hero-link hero-link-primary" href="https://scholar.google.com/citations?user=pZWwBx0AAAAJ&hl=en" target="_blank" rel="noreferrer">Google Scholar</a>
+                  <a class="hero-link" href="https://orcid.org/0000-0002-0372-996X" target="_blank" rel="noreferrer">ORCID</a>
+                  <a class="hero-link" href="#publications">Selected Papers</a>
+                </div>
+              </div>
 
-        <section class="highlights reveal" aria-label="Highlights">
-          <article>
-            <p class="highlight-number">Recognition</p>
-            <p class="highlight-text">Outstanding Reviewer, IEEE/CVF CVPR 2025</p>
-          </article>
-          <article>
-            <p class="highlight-number">Publications</p>
-            <p class="highlight-text">30+ peer-reviewed papers, including 11 first-author publications</p>
-          </article>
-          <article>
-            <p class="highlight-number">Core Areas</p>
-            <p class="highlight-text">AI, computer vision, multimodal learning, neural rendering, and 3D visual computing</p>
-          </article>
-          <article>
-            <p class="highlight-number">Funding</p>
-            <p class="highlight-text">Funded projects as PI and Co-I across vision, digital fashion, and intelligent systems</p>
-          </article>
+              <div class="hero-side">
+                <div class="stat-grid">
+                  <article class="stat-card">
+                    <p class="stat-label">Publications</p>
+                    <p class="stat-value">30+</p>
+                    <p class="stat-copy">peer-reviewed papers</p>
+                  </article>
+                  <article class="stat-card">
+                    <p class="stat-label">First Author</p>
+                    <p class="stat-value">11</p>
+                    <p class="stat-copy">first-author papers</p>
+                  </article>
+                  <article class="stat-card">
+                    <p class="stat-label">Recognition</p>
+                    <p class="stat-value">CVPR</p>
+                    <p class="stat-copy">Outstanding Reviewer 2025</p>
+                  </article>
+                  <article class="stat-card">
+                    <p class="stat-label">Projects</p>
+                    <p class="stat-value">8</p>
+                    <p class="stat-copy">funded projects as PI / Co-I</p>
+                  </article>
+                </div>
+                <div class="hero-aside-note">
+                  <p class="aside-kicker">Current Themes</p>
+                  <p>
+                    Neural rendering, multimodal reasoning, structured visual understanding,
+                    wearable AI, and intelligent interactive systems.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
         </section>
 
         <div class="content-grid">
@@ -268,7 +280,7 @@
                   <a class="inline-link" href="assets/papers/Zhou_2023_IEEE_TCSVT_Pose_Aware_Global_Representation_Network.pdf">Paper</a>
                 </article>
 
-                <p class="body-copy">
+                <p class="body-copy publication-note">
                   A fuller publication list is available through
                   <a class="inline-link" href="https://scholar.google.com/citations?user=pZWwBx0AAAAJ&hl=en" target="_blank" rel="noreferrer">Google Scholar</a>.
                 </p>
@@ -310,6 +322,7 @@
                 technologies, and other human-centred intelligent applications.
               </p>
               <div class="contact-links">
+                <a href="mailto:yanghong.zhou@connect.polyu.hk">Email</a>
                 <a href="https://scholar.google.com/citations?user=pZWwBx0AAAAJ&hl=en" target="_blank" rel="noreferrer">Google Scholar</a>
                 <a href="https://orcid.org/0000-0002-0372-996X" target="_blank" rel="noreferrer">ORCID</a>
               </div>
